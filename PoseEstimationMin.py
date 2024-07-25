@@ -6,11 +6,11 @@ mpDraw = mp.solutions.drawing_utils
 mpPose = mp.solutions.pose
 pose = mpPose.Pose()
 
-# cap = cv2.VideoCapture('/Users/prakashvishal93/Downloads/L-Online/AI _Projects/AI-PROJECT-AI-IN-SPORTS-/vir.mp4')
-# cap = cv2.VideoCapture('/Users/prakashvishal93/Downloads/L-Online/AI _Projects/AI-PROJECT-AI-IN-SPORTS-/Dhoni.mp4')
-cap = cv2.VideoCapture('/Users/prakashvishal93/Downloads/L-Online/AI _Projects/AI-PROJECT-AI-IN-SPORTS-/Virat.mp4')
-# cap = cv2.VideoCapture('/Users/prakashvishal93/Downloads/L-Online/AI _Projects/AI-PROJECT-AI-IN-SPORTS-/1.mp4')
-# cap = cv2.VideoCapture('/Users/prakashvishal93/Downloads/L-Online/AI _Projects/AI-PROJECT-AI-IN-SPORTS-/viru.mp4')
+# cap = cv2.VideoCapture('/Users/Downloads/L-Online/AI _Projects/AI-PROJECT-AI-IN-SPORTS-/vir.mp4')
+# cap = cv2.VideoCapture('/Users/Downloads/L-Online/AI _Projects/AI-PROJECT-AI-IN-SPORTS-/Dhoni.mp4')
+cap = cv2.VideoCapture('/Users/Downloads/L-Online/AI _Projects/AI-PROJECT-AI-IN-SPORTS-/Virat.mp4')
+# cap = cv2.VideoCapture('/Users /Downloads/L-Online/AI _Projects/AI-PROJECT-AI-IN-SPORTS-/1.mp4')
+# cap = cv2.VideoCapture('/Users /Downloads/L-Online/AI _Projects/AI-PROJECT-AI-IN-SPORTS-/viru.mp4')
 pTime = 0
 while True:
     success, img = cap.read()
